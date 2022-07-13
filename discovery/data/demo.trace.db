@@ -1,0 +1,18 @@
+2022-05-08 10:06:57 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN_ENTRY" not found; SQL statement:
+select tokenentry0_.processor_name as processo1_3_0_, tokenentry0_.segment as segment2_3_0_, tokenentry0_.owner as owner3_3_0_, tokenentry0_.timestamp as timestam4_3_0_, tokenentry0_.token as token5_3_0_, tokenentry0_.token_type as token_ty6_3_0_ from token_entry tokenentry0_ where tokenentry0_.processor_name=? and tokenentry0_.segment=? [42102-200]
+2022-05-08 10:06:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN_ENTRY" not found; SQL statement:
+select tokenentry0_.segment as col_0_0_ from token_entry tokenentry0_ where tokenentry0_.processor_name=? order by tokenentry0_.segment ASC [42102-200]
+2022-05-08 10:16:45 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN_ENTRY" not found; SQL statement:
+select tokenentry0_.processor_name as processo1_3_0_, tokenentry0_.segment as segment2_3_0_, tokenentry0_.owner as owner3_3_0_, tokenentry0_.timestamp as timestam4_3_0_, tokenentry0_.token as token5_3_0_, tokenentry0_.token_type as token_ty6_3_0_ from token_entry tokenentry0_ where tokenentry0_.processor_name=? and tokenentry0_.segment=? [42102-200]
+2022-05-08 10:16:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN_ENTRY" not found; SQL statement:
+select tokenentry0_.segment as col_0_0_ from token_entry tokenentry0_ where tokenentry0_.processor_name=? order by tokenentry0_.segment ASC [42102-200]
+2022-05-08 10:42:07 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN_ENTRY" not found; SQL statement:
+select tokenentry0_.processor_name as processo1_3_0_, tokenentry0_.segment as segment2_3_0_, tokenentry0_.owner as owner3_3_0_, tokenentry0_.timestamp as timestam4_3_0_, tokenentry0_.token as token5_3_0_, tokenentry0_.token_type as token_ty6_3_0_ from token_entry tokenentry0_ where tokenentry0_.processor_name=? and tokenentry0_.segment=? [42102-200]
+2022-05-08 10:42:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN_ENTRY" not found; SQL statement:
+select tokenentry0_.segment as col_0_0_ from token_entry tokenentry0_ where tokenentry0_.processor_name=? order by tokenentry0_.segment ASC [42102-200]
